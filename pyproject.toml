@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "2022-09-09 python word encoder decoder"
+version = "0.1.0"
+description = ""
+authors = ["orso <30684972+OrsoEric@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "2022_09_09 python word encoder decoder"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydot = "^1.4.2"
+pydotplus = "^2.0.2"
+graphviz = "^0.20.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
